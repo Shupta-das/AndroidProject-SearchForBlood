@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameTextViewId"
+        android:layout_marginTop="5dp"
+        android:text="Name:Shupta Das"/>
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ageTextViewId"
+        android:layout_marginTop="5dp"
+        android:text="Age:21"/>
+
+    <TextView
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactNumberTextViewId"
+        android:layout_marginTop="5dp"
+        android:text="Contact:01963330534"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bloodGroupTextViewId"
+        android:layout_marginTop="5dp"
+        android:text="BloodGroup:A+"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/availableTextViewId"
+        android:layout_marginTop="5dp"
+        android:text="Availability: Yes"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityTextViewId"
+        android:layout_marginTop="5dp"
+        android:text="City:Khulna"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        />
+
+
+</LinearLayout>

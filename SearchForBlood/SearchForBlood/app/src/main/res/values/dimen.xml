@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="navHeaderHeight">176dp</dimen>
+    <dimen name="navHeaderVerticalSpacing">8dp</dimen>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/profileInfoId"
+            android:title="My Profile"
+            android:icon="@drawable/ic_info"/>
+
+        <item android:id="@+id/searchId"
+            android:title="Search for Blood"
+            android:icon="@drawable/ic_search"/>
+
+        <item android:id="@+id/updateId"
+            android:title="Update Profile"
+            android:icon="@drawable/ic_settings"/>
+
+        <item android:id="@+id/warningId"
+            android:title="Warning"
+            android:icon="@drawable/ic_warning_black_24dp"/>
+        <item android:id="@+id/logOutId"
+            android:title="Logout"
+            android:icon="@drawable/ic_logout"/>
+
+
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/bloodBankLocationId"
+                android:title="Blood bank locations"
+                android:icon="@drawable/ic_location_searching"/>
+
+            <item
+                android:id="@+id/helpId"
+                android:title="Help"
+                android:icon="@drawable/ic_help"/>
+
+        </menu>
+
+    </item>
+</menu>

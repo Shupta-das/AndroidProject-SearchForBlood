@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaveDataActivity">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/nameEditTextId"
+                android:hint="Enter your name : "
+                android:backgroundTint="#1AEB0B"
+                android:cursorVisible="true"
+                android:textColor="#F5110101"
+                android:layout_margin="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/ageEditTextId"
+                android:hint="Enter your age : "
+                android:backgroundTint="#1AEB0B"
+                android:textColor="#F5110101"
+                android:layout_margin="15dp"
+                android:cursorVisible="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/contactNumberEditTextId"
+                android:hint="Enter your contact number : "
+                android:backgroundTint="#1AEB0B"
+                android:textColor="#F5110101"
+                android:layout_margin="15dp"
+                android:cursorVisible="true"
+                android:inputType="numberDecimal"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:layout_margin="15dp"
+                android:text="Choose your blood group below :"
+                android:textColor="#FD0C0C0C">
+
+            </TextView>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="15dp"
+                android:id="@+id/spinnerId">
+
+            </Spinner>
+
+            <EditText
+                android:id="@+id/availableEditTextId"
+                android:textColor="#F5110101"
+                android:hint="Available for blood donation?(yes/no): "
+                android:layout_margin="15dp"
+                android:backgroundTint="#1AEB0B"
+                android:cursorVisible="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+
+
+            <EditText
+                android:id="@+id/cityEditTextId"
+                android:hint="Enter your city : "
+                android:backgroundTint="#1AEB0B"
+                android:textColor="#F5110101"
+                android:layout_margin="15dp"
+                android:cursorVisible="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/saveButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Save Data"
+                android:textStyle="bold"
+                android:textColor="#F3110000"
+                android:backgroundTint="#E20D15">
+
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
